@@ -1,0 +1,12 @@
+.boost {
+    height:200px;
+    width:200px;
+    background-color:#e84555;
+
+    animation: transform 3s ease-in;
+}
+
+.boost:hover{
+    transform: translateX(100%);
+
+}

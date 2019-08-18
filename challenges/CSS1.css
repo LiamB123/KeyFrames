@@ -1,0 +1,26 @@
+.box
+    { height: 50px;
+    width:50px;
+    background-color: #e84620;
+    ;
+   
+    
+    }
+    .box:hover{
+         animation-name: grow;
+    animation-duration:2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out
+    
+    }
+    
+@keyframes grow {
+    
+    from { height: 50px ;
+        width:50px;
+    }
+    
+    to {height: 100px ;
+        width: 100px;
+    }
+}

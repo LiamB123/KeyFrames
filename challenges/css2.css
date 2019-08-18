@@ -1,0 +1,21 @@
+.box { height:50px; 
+    width:50px; 
+    background-color:#e84610;
+    position:relative;
+    animation-name:spin;
+   animation: spin 1s linear infinite ;
+    
+}
+
+
+@keyframes spin {
+    from { transform:rotate(0deg);
+        
+    }
+    
+    to{transform:rotate(360deg);
+        
+    }
+    
+    
+}
